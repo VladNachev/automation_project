@@ -1,0 +1,22 @@
+<suite name="Vlad test suite" verbose="1">
+    <test name="Smoke Tests">
+        <classes>
+            <class name="exersices.ExersiceTest"></class>
+        </classes>
+    </test>
+    <test name="Regression Tests">
+        <classes>
+            <class name="exersices.ExersiceTest"></class>
+            <class name="exersices.PracticeParameters">
+                <methods>
+                <include name="testParameters">
+                    <parameter name="num1" value="12"></parameter>
+                    <parameter name="num2" value="18"></parameter>
+                    <parameter name="sum" value="30"></parameter>
+                </include>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

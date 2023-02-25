@@ -1,0 +1,13 @@
+<suite name="Vlad test suite" verbose="1">
+    <test name="Smoke Tests">
+        <classes>
+            <class name="exersices.ExersiceTest"></class>
+        </classes>
+    </test>
+    <test name="Regression Tests">
+        <classes>
+            <class name="exersices.ExersiceTest"></class>
+            <class name="exersices.PracticeParameters"></class>
+        </classes>
+    </test>
+</suite>
