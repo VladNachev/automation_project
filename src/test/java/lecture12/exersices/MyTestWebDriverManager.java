@@ -10,6 +10,7 @@ public class MyTestWebDriverManager {
         ChromeDriver driver = new ChromeDriver();
 
         driver.get("http://training.skillo-bg.com:4300/posts/all");
+        driver.manage().window().maximize();
 
     }
 }
