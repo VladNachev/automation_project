@@ -4,15 +4,22 @@ CSS selectors:
 
 1. $$('#homeIcon')
 1. $$("img[id=homeIcon]")
+2. $$("a[id=nav-link-home]")
+3. $$("a[id=nav-link-profile]")
+4. $$("a[id=nav-link-new-post]")
+5. $$("input[id=search-bar]")
+6. $$("i.fas.fa-search")
+7. $$("i.fas.fa-sign-out-alt.fa-lg")
 
-2. $$("div.col-10.col-md-8.col-lg-7.d-flex.align-items-center h2")
-
-3. $$("div.image-container")
-
-
-Xpath
+Xpath selectors:
 1. $x("//img[@id='homeIcon']")
+2. $x('//a[@id="nav-link-home"]')
+3. $x('//a[@id="nav-link-profile"]')
+4. $x('//a[@id="nav-link-new-post"]')
+5. $x('//input[@id="search-bar"]')
+6. $x('//i[@class="fas fa-search"]')
+8. $x('//i[@class="fas fa-sign-out-alt fa-lg"]')
 
-2. $x("//div[@class='col-10 col-md-8 col-lg-7 d-flex align-items-center']//h2")
-
-3. $x("//div[@class='image-container']")
+Other urls
+1. $x("//div[@class='col-10 col-md-8 col-lg-7 d-flex align-items-center']//h2")
+2. $x("//div[@class='image-container']")
