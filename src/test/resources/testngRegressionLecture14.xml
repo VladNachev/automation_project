@@ -1,0 +1,16 @@
+<suite name="Regression Lecture 14" verbose="1">
+    <test name="Regression Tests">
+        <classes>
+            <class name="lecture14.exersices.NewUserTestParameters">
+                <methods>
+                    <include name="registerUser">
+                        <parameter name="username" value="tesdt322332as1d"></parameter>
+                        <parameter name="email" value="blabla1213@abv.bg"></parameter>
+                        <parameter name="password" value="aaaaaa444444"></parameter>
+                    </include>
+                </methods>
+
+            </class>
+        </classes>
+    </test>
+</suite>

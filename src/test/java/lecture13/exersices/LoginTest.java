@@ -66,11 +66,11 @@ public class LoginTest {
 
         System.out.println("4. Enter correct username");
         WebElement usernameField = driver.findElement(By.name("usernameOrEmail"));
-        usernameField.sendKeys("VladTest");
+        usernameField.sendKeys("***********");
 
         System.out.println("5. Enter correcr password");
         WebElement passwordField = driver.findElement(By.name("password"));
-        passwordField.sendKeys("88vlado47180000");
+        passwordField.sendKeys("******************");
 
         System.out.println("6. Click on the Sign in button");
         WebElement signInButton = driver.findElement(By.id("sign-in-button"));
